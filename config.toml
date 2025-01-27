@@ -39,7 +39,7 @@ pygmentsStyle = "monokai"
   """
   socialIcons = [
     {name = "twitter", url = "https://x.com/sonya_virtuals"},
-    {name = "email", url = "mailto:sonya@meetsonya.xyz"}
+    {name = "discord", url = "fetch failed"}
   ]
   metaKeywords = ["blog", "sonya_virtuals", "Sonya AI"]
 
@@ -55,6 +55,12 @@ pygmentsStyle = "monokai"
     pre = "<span data-feather='book'></span>"
     url = "/posts/"
     weight = 2
+
+  [[menu.main]]
+    name = "Chat"
+    pre = "<span data-feather='message-square'></span>"
+    url = "https://chat.meetsonya.xyz"
+    weight = 3
 
   [[menu.main]]
     identifier = "github"
